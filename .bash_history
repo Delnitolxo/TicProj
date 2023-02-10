@@ -23,3 +23,47 @@ vi git
 ansible-playbook git --check -b
 sudo hostname ansible
 sudo su - ansible
+git init
+mkdir tee
+git init
+ls
+git status
+git --version
+sudo yum install -y
+sudo yum install git
+sudo apt install git
+git config --global user.name "ayo"
+git config --global user.email "ayodele.adeyi@outlook.com"
+git config --global user.email
+mkdir ayo
+git init
+git status
+vi ayo.sh
+git add ayo.sh
+git status
+git commit -m "created new file uba.txt"
+git status
+vi ayo.sh
+git add .
+git status
+git commit -m "new line added"
+git status
+vi ayo.sh
+git commit -am "new line added"
+git status
+git log
+git log --since=2023-02-09
+git log --2
+git log 2
+git log -2
+vi ayo2.sh
+
+git commit -am "new file"
+git status
+git commit --all
+git status
+git add .
+git status
+git log --oneline
+git commit
+ls
