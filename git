@@ -1,0 +1,8 @@
+- hosts: jenkins
+  tasks:
+  - name: Install Git
+    package: 
+      name: git 
+      state: latest
+  - name: Install wget
+    package: name=wget state=latest
