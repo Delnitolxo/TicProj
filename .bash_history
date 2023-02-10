@@ -67,3 +67,19 @@ git status
 git log --oneline
 git commit
 ls
+echo "it is well" >> ayo.sh
+cat ayo.sh
+git commit -am "new line added"
+git status
+git log
+git branch
+touch gitfile{1..3}.txt
+ls
+git log --oneline
+git branch bugfix
+git branch
+git checkout bugfix
+git branch
+git add gitfile{1..3}.txt
+git commit --am "new files added"
+git commit --am 
